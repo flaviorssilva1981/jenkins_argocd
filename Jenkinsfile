@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("flaviorssilva1981/jenkins_argocd")
+       app = docker.build("flaviorssilva/ci_cd")
     }
 
     stage('Test image') {
