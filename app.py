@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'PIPELINE CI / CD 4.0!!!'
+    return 'PIPELINE CI / CD 5.0!!!'
